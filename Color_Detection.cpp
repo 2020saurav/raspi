@@ -1,13 +1,3 @@
-// Lucas_Kanade_Optical.cpp : Defines the entry point for the console application.
-//*************************************************************************************
-//* Author: John Chhokar
-//* Date: 2/20/2011
-//* Progress:  This program captures a red ball and sends bluetooth 
-//*            commands to the NXT on the BOHR robot. It was originally started to track
-//*            moving objects using the LUCAS Kanade Optical Flow but has since changed
-//*			   to track red objects using filtering and Hue Saturation Filters.
-//**************************************************************************************
-
 #include "stdafx.h"
 #include <cv.h>
 #include <cxcore.h>
@@ -21,8 +11,6 @@
  
 int main(int argc, char** argv)
 {
-	//PlaySound(TEXT("C:\\Documents and Settings\\jachhoka\\My Documents\\School\\ECE479\\The_Claw.wav"),  NULL, SND_ASYNC);
-	
 	// Default capture size - 640x480
     CvSize size = cvSize(640,480); // 640 width 480 height
 //*****************************************************************************
