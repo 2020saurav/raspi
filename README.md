@@ -1,6 +1,8 @@
 raspi
 =====
 
+(Edit) : The file pi.py contains this.
+
 We will be using OpenCV to detect green ball (tennis ball) and the code and camera will guide the bot to reach the ball.
 
 1. We shall convert image to HSV plane using cvtColor() function
