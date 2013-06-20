@@ -79,9 +79,9 @@ def search():      # searches a ball, returns radius and coordinate of its cente
     
     try: 
         
-        cv.HoughCircles(processed, storage, cv.CV_HOUGH_GRADIENT, 2, 32.0, HIGH, LOW)
+        cv2.HoughCircles(processed, storage, cv.CV_HOUGH_GRADIENT, 2, 32.0, HIGH, LOW)
 
-       '''   If bot confuses in **MANY  BALL  SITUATION** : Do something here (below):
+       	'''  If bot confuses in **MANY  BALL  SITUATION** : Do something here (below):
             Presently it scans all circles ( I gave only 1 in it) and keeps the last one
 
             Suggest something for many ball situation.
